@@ -1,0 +1,106 @@
+    1  cd 
+    2  cd files
+    3  cd user
+    4  ls
+    5  cd Documents/
+    6  ls
+    7  cd Downloads/
+    8  cd ..
+    9  cd Downloads/
+   10  ls
+   11  cd 'Aditya Subramanian S'
+   12  cd ..
+   13  cd Document/
+   14  cd Documents/
+   15  ls
+   16  cd My Pictures/
+   17  mkdir myproject
+   18  cd myproject
+   19  touch file.txt
+   20  ls
+   21  cat file.txt
+   22  cat file.txt
+   23  ls
+   24  ls -l
+   25  ls -a
+   26  pwd
+   27  man
+   28  clear
+   29  ls
+   30  ls -l
+   31  pwd
+   32  ls
+   33  ls
+   34  cd Desktop/
+   35  mkdir git1
+   36  cd git1/
+   37  ls
+   38  git config --global user.name AdityaSubramanianSudhakar
+   39  git config --global user.email aditya100605@gmail.com
+   40  git clone https://github.com/AdityaSubramanianSudhakar/sample.git
+   41  touch s1.txt
+   42  ls
+   43  cd sample/
+   44  ls
+   45  ls -a
+   46  nano s2.txt
+   47  cat s2.txt
+   48  git add s2.txt
+   49  git status
+   50  git commit -m "s.txt added"
+   51  git remote add origin https://github.com/AdityaSubramanianSudhakar/sample.git
+   52  git push origin main
+   53  git push origin main
+   54  cd Desktop/
+   55  cd git1/
+   56  cd samole/
+   57  cd sample/
+   58  git pull origin main
+   59  git pull origin main
+   60  git pull origin main
+   61  git pull origin main
+   62  git remote
+   63  git remote -v
+   64  git branch
+   65  git branch -a
+   66  git checkout -b new1
+   67  ls
+   68  ls -a
+   69  git checkout main
+   70  git checkout branch
+   71* git checkout br
+   72  git branch -a
+   73  git push origin new1
+   74  git branch -a
+   75  git pull origin branch1
+   76  git checkout branch1
+   77  git branch -a
+   78  git switch new1
+   79  git checkout main
+   80  git push origin main
+   81  git checkout main
+   82  ls 
+   83  cat s2.txt
+   84  git tag v2
+   85  nano s2.txt
+   86  git tag v2
+   87  cat s2.txt
+   88* git switch v2
+   89  cat s2.txt
+   90  git add s2.txt
+   91  git status
+   92  git commit -m "done"
+   93  git checkout v2
+   94  git switch main
+   95  cat s2.txt
+   96  git status
+   97  git config --global alias.co  checkout
+   98  git co branch
+   99  git co branch1
+  100  git co new1
+  101  git config --global alias.checkout  checkout
+  102  git checkout main
+  103  git log
+  104  git history
+  105  history
+  106  history > commands.txt
